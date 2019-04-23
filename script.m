@@ -20,7 +20,7 @@ X(1:10) = 0;
 for i = 1:length(X)
   if abs(X(i)) < 30
     X(i) = 0;
- endif
+  endif
 endfor
 
 figure; plot(f(1:N/2), X(1:N/2));
